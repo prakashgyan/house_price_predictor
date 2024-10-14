@@ -78,17 +78,6 @@ def main():
     st.subheader('Predicted House Price:')
     st.write(f"${prediction[0]:,.2f}")
 
-    # Display sample data for reference (if needed)
-    if st.checkbox("Show sample data"):
-        sample_data = pd.DataFrame({
-            'Area': [1500, 2000, 2500],
-            'Bedrooms': [3, 4, 4],
-            'Bathrooms': [2, 3, 2],
-            'Garage': [1, 2, 2],
-            'Year Built': [2005, 2010, 2000],
-            'Price': [300000, 450000, 400000]
-        })
-        st.write(sample_data)
 
 if __name__ == '__main__':
     main()
