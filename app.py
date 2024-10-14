@@ -1,8 +1,6 @@
 import streamlit as st
-import pickle
 import pandas as pd
 import numpy as np
-import joblib
 from utils import process_raw_input
 from utils import load_model
 
