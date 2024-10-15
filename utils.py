@@ -1,13 +1,7 @@
 import pandas as pd
 import random
 
-class DummyModel:
 
-    def __init__(self):
-        pass
-
-    def predict(self, df):
-        return [df.LotArea[0] * 27 + random.randint(0, 10000)]
 
 
 def handle_missing_data(df):
